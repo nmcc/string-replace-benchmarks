@@ -61,11 +61,16 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="FileReportFixture.cs" />
+    <Compile Include="Regex.Replace.Benchmark.cs" />
+    <Compile Include="String.Replace.Benchmark.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCollections.cs" />
+    <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Compile Include="StringBuilder.Replace.Benchmark.cs" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
